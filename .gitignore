@@ -1,0 +1,28 @@
+# API Keys and sensitive credentials
+*.key
+*api_key*
+*API_KEY*
+*apikey*
+*APIKEY*
+*.secret
+*.secrets
+*secret*
+*SECRET*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Configuration files that might contain keys
+config.ini
+config.json
+secrets.json
+credentials.json
+*.credentials
+
+# Common patterns
+**/keys/
+**/secrets/
+**/credentials/
