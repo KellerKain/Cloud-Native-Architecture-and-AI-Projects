@@ -1,6 +1,8 @@
 import os
 import requests
-API_KEY = os.getenv("API_KEY", "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")
+API_KEY = os.getenv("API_KEY")
+if not API_KEY:
+    raise ValueError("API_KEY environment variable is not set. Please set it before running the script.")
 MODEL = "x-ai/grok-code-fast-1"
 def call_model(prompt: str):
     # Invoke the AI service via OpenRouter API
