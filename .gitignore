@@ -26,3 +26,6 @@ credentials.json
 **/keys/
 **/secrets/
 **/credentials/
+
+# Local OpenRouter key (local-only)
+openrouter_key.py
