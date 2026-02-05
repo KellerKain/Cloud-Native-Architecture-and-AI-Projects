@@ -30,5 +30,8 @@ credentials.json
 # Local OpenRouter key (local-only)
 openrouter_key.py
 
-# Local screenshots and exports
-Screenshot 2026-02-05 101135.png
+# Python byte-compiled and cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
